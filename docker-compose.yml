@@ -1,0 +1,14 @@
+﻿services:
+  db:
+    image: postgres:latest
+    container_name: world-league-db
+    restart: always
+    environment:
+      POSTGRES_DB: league_db
+      POSTGRES_USER: adessouser
+      POSTGRES_PASSWORD: adessopw
+      PG_DATA: /var/lib/postgresql/data
+    volumes:
+      - ../pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"

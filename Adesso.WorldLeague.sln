@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adesso.WorldLeague.Api", "Adesso.WorldLeague.Api\Adesso.WorldLeague.Api.csproj", "{12E3DD66-3C04-4536-B14A-73AB3B590B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adesso.WorldLeague.Domain", "Adesso.WorldLeague.Domain\Adesso.WorldLeague.Domain.csproj", "{A693EE39-23B4-476E-8B62-22EDFE2DEB1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adesso.WorldLeague.Application", "Adesso.WorldLeague.Application\Adesso.WorldLeague.Application.csproj", "{3DB4EF17-8D3A-45E7-A0D0-167A744CF1D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adesso.WorldLeague.Infrastructure", "Adesso.WorldLeague.Infrastructure\Adesso.WorldLeague.Infrastructure.csproj", "{AC57314D-BF25-4745-A694-2DA9BBC2578D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{20613B54-C74F-4070-B345-DB4897C745D3}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12E3DD66-3C04-4536-B14A-73AB3B590B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E3DD66-3C04-4536-B14A-73AB3B590B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E3DD66-3C04-4536-B14A-73AB3B590B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E3DD66-3C04-4536-B14A-73AB3B590B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A693EE39-23B4-476E-8B62-22EDFE2DEB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A693EE39-23B4-476E-8B62-22EDFE2DEB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A693EE39-23B4-476E-8B62-22EDFE2DEB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A693EE39-23B4-476E-8B62-22EDFE2DEB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB4EF17-8D3A-45E7-A0D0-167A744CF1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB4EF17-8D3A-45E7-A0D0-167A744CF1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB4EF17-8D3A-45E7-A0D0-167A744CF1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB4EF17-8D3A-45E7-A0D0-167A744CF1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC57314D-BF25-4745-A694-2DA9BBC2578D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC57314D-BF25-4745-A694-2DA9BBC2578D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC57314D-BF25-4745-A694-2DA9BBC2578D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC57314D-BF25-4745-A694-2DA9BBC2578D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
